@@ -35,7 +35,7 @@ public class Main {
 
             //Switch로 해보자
 
-            switch (op) {
+            switch (op) {  // p.118
                 case "1":
                     plus(a, b);  // 매개값으로 a, b 주자
                                   // 빨간밑줄이 생긴 이유는 아래 선언문에 매개변수가 없어서!
@@ -64,6 +64,7 @@ public class Main {
     }                                                               // 지역변수기 때문에 int x int y 해도 상관 없다.
                                                                     // = 호출부에 빨간 밑줄 안 생긴다.
     private static void minus(int a, int b) {
+        System.out.println(a + "-" + b + " = " + (a - b));
     }
     private static void multiply(int a, int b) {
     }
